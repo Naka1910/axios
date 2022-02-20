@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #35589e;
+  background-color: #464d5a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -44,6 +44,6 @@
   border-radius: 10px;
 }
 .clk{
-  background-color: black;
-  color: yellow;
+  background-color: rgb(177, 99, 99);
+  color: rgb(20, 42, 43);
 }

@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './Counter';
 import Button from './Button';
 import Form from './Forms';
+
 const colors =['red','white','yellow']
 const comments=[
   {
@@ -28,9 +29,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"> 
+
+     
+
       <Form />
 
-      {
+
+      {/* {
         <nav>
           <ul>
             {
@@ -63,11 +68,11 @@ function App() {
             <Button key={comment.id} customClass ='clk' text={comment.text} />
           )
         })
-      }
+      } */}
   
-      <Button customClass ='clk' text ='Click Me'/>
-      <Button customStyle ={{ backgroundColor: 'blue' }}text ='Dont Click Me'/>
-      <Counter />
+      {/* <Button customClass ='clk' text ='Click Me'/>
+      <Button customStyle ={{ backgroundColor: 'blue' }}text ='Dont Click Me'/> */}
+      {/* <Counter /> */}
 
        
       </header>

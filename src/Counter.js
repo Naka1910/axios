@@ -10,7 +10,7 @@ export default function Counter (){
        <div>
            <p>{value}</p>
            <button onClick={handleClick}>Submit</button>
-           <Products />
+           {/* <Products /> */}
        </div>
     )
 }
